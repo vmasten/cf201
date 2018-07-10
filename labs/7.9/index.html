@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Lab 1
+  </title>
+</head>
+
+<body>
+  <main>
+    <section>
+      <h2>Questions:</h2>
+      <p>Please give me an adjective.</p>
+      <p>Great! Now, give me a boy's name.</p>
+      <p>How about a girl's name, too?</p>
+      <p>Looks good. Now, how about an activity you enjoy?</p>
+      <p>I like doing that, too. Next, give me a number.</p>
+      <p>That's quite a number! Lastly, may I have a food?</p>
+    </section>
+  </main>
+
+  <script>
+    var adjective, boysName, activity, number, food, story;
+    
+    adjective = prompt('Please give me an adjective.');
+    console.log('adjective', adjective);
+    boysName = prompt('Great! What\'s a good boy\'s name?');
+    console.log('boysName', boysName);
+    girlsName = prompt('How about a girl\'s name, too?');
+    activity = prompt('Looks good. Now, how about an activity you enjoy?');
+    console.log('activity', activity);
+    number = prompt('I like doing that, too. Next, give ne a number.');
+    console.log('number', number);
+    food = prompt('That\'s quite a number! Lastly, may I have a food?');
+    console.log('food', food);
+
+    story = alert('Okay. Now, I\'m going to tell you a story: \n \n There once was a very ' + adjective + ' boy named ' + boysName + ' who LOVED ' + activity + '. Unfortunately, he loved ' + activity + ' so much he managed to do it ' + number + ' times in one day. As soon as he finished, he exploded. Perhaps he should have just eaten ' + food + ' with ' + girlsName + ' instead.');
+  </script>
+</body>
+</html>
